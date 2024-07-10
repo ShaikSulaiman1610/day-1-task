@@ -1,0 +1,28 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+        HTTP1.1:
+
+            * client to server to send 3 TCP connection establish to request send and then server to client there also 3 TCP connection establish
+            * it works on the textual format 
+            * it uses request resource inlining for use getting multipule pages
+            * it compresses data by itself
+
+        HTTP2 :
+
+            * client to server to send 1 TCP connection establish to request send and then server to client there also 1 TCP connection establish
+            * it works on the binary protocol
+            * it uses PUSH frame by server that collects all multiple pages    
+            * it uses HPACK for data compression
+
+
+
+2.Write a blog about objects and its internal representation in Javascript
+
+    * Objects in JavaScript are like magical containers that hold information in key-value pairs,
+	  allowing us to organize and access data easily.
+
+	* Internally, objects are represented as collections of properties and methods. 
+
+	* They can contain other objects nested within them, creating a hierarchy of data. 	
+    
+	* Accessing and modifying object properties is done through dot notation or square brackets.
